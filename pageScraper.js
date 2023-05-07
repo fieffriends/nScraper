@@ -6,7 +6,7 @@ const scraperObject = {
 		console.log(`Navigating to ${this.url}...`);
 		const cookie = {
 			'name': 'sessionid',
-			'value': '',
+			'value': process.env.sessionid,
 			'domain': 'nhentai.net',
 			"path": "/"
 		};
