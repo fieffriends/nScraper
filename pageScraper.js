@@ -1,5 +1,5 @@
 const scraperObject = {
-	url: 'https://nhentai.net/favorites/',
+	url: 'https://nhentai.net/', //favorites/',
 	async scraper(browser) {
 		let page = await browser.newPage();
 		await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0');
